@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+    <header class="bg-gradient-to-r from-blue-950 to-indigo-900 text-white py-12 px-4 text-center">
+        <h1 class="text-3xl md:text-5xl font-extrabold max-w-5xl mx-auto">{{ site.description }}</h1>
+        <p class="text-xl mt-3 text-blue-200">GbR 2027 &bull; [City, Country] &bull; [Dates, 2027]</p>
+    </header>
+
+    <nav class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-center space-x-6 overflow-x-auto whitespace-nowrap">
+            {% for item in site.navigation %}
+                <a href="{{ item.url | relative_url }}" class="hover:text-blue-200 font-medium {% if page.url == item.url %}text-amber-400 font-bold{% endif %}">
+                    {{ item.title }}
+                </a>
+            {% endfor %}
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 w-full prose prose-blue">
+        {{ content }}
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-6 text-sm mt-12">
+        <p>&copy; 2027 GbR Workshop Committee. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>

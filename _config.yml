@@ -1,9 +1,10 @@
-title: 15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition
+#title: 15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition
+title: GbR2027
 email: chair@iapr-tc15.org
 description: >- # this means to ignore newlines until "baseurl:"
   The 15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition (GbR2027) is a biennial workshop organized by the 15th Technical Committee of the IAPR.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "2027.gbrpr.org"
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://2027.gbrpr.org"
 
 # Build settings
 theme: minima

@@ -7,7 +7,7 @@ permalink: /index.html
 <img src="{{site.baseurl}}/media/logo.png" width="40%" alt="GbR2027 logo">
 </p>
 
-#GbR 2027 is Coming soon!
+# GbR 2027 is Coming soon!
 
 The **15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition (GbR2027)** is a biennial workshop organized by the 15th Technical Committee of the IAPR.
 

@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.5.10/dist/typography.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
 
-    <header class="bg-gradient-to-r from-blue-950 to-indigo-900 text-white py-12 px-4 text-center">
-        <h1 class="text-3xl md:text-5xl font-extrabold max-w-5xl mx-auto">{{ site.description }}</h1>
-        <p class="text-xl mt-3 text-blue-200">GbR 2027 &bull; [City, Country] &bull; [Dates, 2027]</p>
+    <header class="bg-gradient-to-r from-blue-950 to-indigo-900 text-white py-12 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8">
+            <div class="flex-shrink-0">
+                <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="GbR 2027 Logo" class="h-40 w-auto object-contain bg-white p-2 rounded-lg shadow-lg">
+            </div>
+            <div class="text-center md:text-left max-w-2xl">
+                <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">{{ site.description }}</h1>
+                <p class="text-xl mt-3 text-blue-200">GbR 2027 &bull; Pisa, Italy &bull; [Dates, 2027]</p>
+            </div>
+        </div>
     </header>
 
     <nav class="bg-blue-900 text-white sticky top-0 z-50 shadow-md">
@@ -23,8 +31,10 @@
         </div>
     </nav>
 
-    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 w-full prose prose-blue">
-        {{ content }}
+    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 w-full">
+        <article class="prose prose-blue max-w-none">
+            {{ content }}
+        </article>
     </main>
 
     <footer class="bg-gray-900 text-gray-400 text-center py-6 text-sm mt-12">

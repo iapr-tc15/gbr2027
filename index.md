@@ -3,13 +3,15 @@ layout: page
 permalink: /index.html
 ---
 
-# GbR 2027 is Coming soon!
-
 <p align="center">
 <img src="{{site.baseurl}}/media/logo.png" width="40%" alt="GbR2027 logo">
 </p>
 
-The **15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition (GbR2027)** is a biennial workshop organized by the 15th Technical Committee of the IAPR.
+<p align="center">
+<strong> GbR 2027 is Coming soon! </strong>
+</p>
+
+The **15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition (GbR2027)** will be held in Pisa (Italy), 9 to 11 June 2027.
 
 GbR aims to encourage research work in Pattern Recognition, Image Analysis, and Machine Learning within the graph theory framework. 
 This traditional workshop series serves as a premier platform for presenting and discussing research findings, innovative applications, 

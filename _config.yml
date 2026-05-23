@@ -1,0 +1,18 @@
+title: GbR 2027
+description: 15th IAPR-TC15 International Workshop on Graph-Based Representations in Pattern Recognition
+remote_theme: pages-themes/cayman@v0.2.0 # Or leave blank to design your own layout
+
+# Navigation links setup
+navigation:
+  - title: "Home"
+    url: /index.html
+  - title: "Topics"
+    url: /topics.html
+  - title: "Important Dates"
+    url: /dates.html
+  - title: "Submission"
+    url: /submission.html
+  - title: "Committees"
+    url: /committees.html
+  - title: "Registration & Venue"
+    url: /registration.html

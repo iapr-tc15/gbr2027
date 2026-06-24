@@ -15,7 +15,7 @@ The **15th IAPR-TC15 International Workshop on Graph-Based Representations in Pa
 
 GbR is a biennial workshop organized by the [Technical Committee 15 of IAPR](https://iapr-tc15.org), aimed at encouraging research works at the intersection of Pattern Recognition, Image Analysis, Machine Learning, and Graph Theory.
 
-A preliminar CFP can be found at this <a href="{{site.baseurl}}/media/GbR27-preliminary-cfp.pdf" target="_blank">link</a>
+A preliminar call for papers can be found at this <a href="{{site.baseurl}}/media/GbR27-preliminary-cfp.pdf" target="_blank">link</a>.
 
 ## Scope & Topics of Interest
 

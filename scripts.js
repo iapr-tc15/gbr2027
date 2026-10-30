@@ -9,7 +9,7 @@ function loadComponents() {
     <nav>
         <a href="index.html">
             <div class="logo">
-                <img src="images/gbr-logo.png" alt="GbR 27" height="60px">
+                <img src="images/gbr-logo-flat.svg" alt="GbR 27" height="60px">
             </div>
         </a>
         <ul class="main__ul">
